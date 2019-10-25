@@ -1,16 +1,16 @@
 ## Basic Configuration
 
-baseurl = "https://shenoybr.github.io/hugo-goa-demo/" 
+baseurl = "http://blog.alishangtian.com" 
 builddrafts = false
 canonifyurls = false
-languageCode = "en-US"
+languageCode = "en-ZH"
 
 contentdir = "content"
 layoutdir = "layouts"
 publishdir = "public"
 
-author = "Erlich Bachman"
-title = "Erlich Bachman"
+author = "毛小冰"
+title = "阿里墒田"
 
 theme = "hugo-goa"
 
@@ -21,11 +21,11 @@ enableRobotsTXT = true
 
 ## Site Settings
 [params]
-author = "Erlich Bachman"
+author = "毛小冰"
 intro = "Startup Guru Extraordinaire"
-description = "Now @Pied Piper. Previously @Hacker Hostel, @Bachmanity and @Aviato. <br/> \"What is F times 5? It's Fleventy-five.\""
+description = "Now @xiaomi. Previously @alibaba, @wanda and @gome. <br/> \"What is F times 5? It's Fleventy-five.\""
 authorimage = "headshot.jpg"
-dateformat = "Jan 2, 2006"
+dateformat = "2019-10-22 08:00:00"
 
 ## Site Meta Settings
 [params.meta]
@@ -34,29 +34,25 @@ keywords = "minimalist,blog,goa,hugo,developer"
 
 ## Social Accounts
 [params.social]
-github = "<username>"
-instagram = "<username>"
-linkedin = "<username>"
-twitter = "<username>"
-facebook = "<username>"
-google = "<username>"
-stackoverflow = "<username>"
-email = "you@example.com"
+github           = "alishangtian"
+gitlab           = "maoxiaobing1988"
+linkedin         = "小冰-毛-5bab08136"
+email            = "maoxiaobing@xiaomi.com"
 
 ## Extras
 [params.extra]
-copyright = "© 2016. Erlich Bachman. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/)." 
+copyright = "© 2019. 毛小冰. 京ICP备18002465号" 
 poweredby = true
 hightlightjs = true
 
 ## Main Menu
 [[menu.main]]
-    name = "blog"
+    name = "博客"
     weight = 100
     identifier = "blog"
     url = "/blog/"
 [[menu.main]]
-    name = "about"
+    name = "简介"
     identifier = "about"
     weight = 200
     url = "/about/"
